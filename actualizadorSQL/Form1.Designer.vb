@@ -27,8 +27,8 @@ Partial Class Form1
         Me.HistorialToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.ConfiguracionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.ImportarExcelToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
-        Me.SalirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.SincronizarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
+        Me.SalirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -65,17 +65,17 @@ Partial Class Form1
         Me.ImportarExcelToolStripMenuItem.Size = New System.Drawing.Size(95, 20)
         Me.ImportarExcelToolStripMenuItem.Text = "Importar Excel"
         '
-        'SalirToolStripMenuItem
-        '
-        Me.SalirToolStripMenuItem.Name = "SalirToolStripMenuItem"
-        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(41, 20)
-        Me.SalirToolStripMenuItem.Text = "Salir"
-        '
         'SincronizarToolStripMenuItem
         '
         Me.SincronizarToolStripMenuItem.Name = "SincronizarToolStripMenuItem"
         Me.SincronizarToolStripMenuItem.Size = New System.Drawing.Size(77, 20)
         Me.SincronizarToolStripMenuItem.Text = "Sincronizar"
+        '
+        'SalirToolStripMenuItem
+        '
+        Me.SalirToolStripMenuItem.Name = "SalirToolStripMenuItem"
+        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(41, 20)
+        Me.SalirToolStripMenuItem.Text = "Salir"
         '
         'Form1
         '
