@@ -26,5 +26,6 @@
 
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         'esto es una prueba 06-10-2026
+        'Este cambio es par el comit 2
     End Sub
 End Class
