@@ -30,6 +30,10 @@ Partial Class Form1
         Me.SincronizarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.SalirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.Button1 = New System.Windows.Forms.Button
+<<<<<<< HEAD
+=======
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox
+>>>>>>> 65aabcd41bbb0cb40dd0a155ea572e4eb5bc5c05
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -80,18 +84,39 @@ Partial Class Form1
         '
         'Button1
         '
+<<<<<<< HEAD
         Me.Button1.Location = New System.Drawing.Point(113, 142)
+=======
+        Me.Button1.Location = New System.Drawing.Point(106, 109)
+>>>>>>> 65aabcd41bbb0cb40dd0a155ea572e4eb5bc5c05
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 1
         Me.Button1.Text = "Button1"
         Me.Button1.UseVisualStyleBackColor = True
         '
+<<<<<<< HEAD
+=======
+        'CheckBox1
+        '
+        Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.Location = New System.Drawing.Point(223, 114)
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.Size = New System.Drawing.Size(81, 17)
+        Me.CheckBox1.TabIndex = 2
+        Me.CheckBox1.Text = "CheckBox1"
+        Me.CheckBox1.UseVisualStyleBackColor = True
+        '
+>>>>>>> 65aabcd41bbb0cb40dd0a155ea572e4eb5bc5c05
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(478, 261)
+<<<<<<< HEAD
+=======
+        Me.Controls.Add(Me.CheckBox1)
+>>>>>>> 65aabcd41bbb0cb40dd0a155ea572e4eb5bc5c05
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
@@ -111,5 +136,9 @@ Partial Class Form1
     Friend WithEvents ImportarExcelToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents SincronizarToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents Button1 As System.Windows.Forms.Button
+<<<<<<< HEAD
+=======
+    Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
+>>>>>>> 65aabcd41bbb0cb40dd0a155ea572e4eb5bc5c05
 
 End Class
