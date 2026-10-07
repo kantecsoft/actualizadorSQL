@@ -30,63 +30,6 @@ Partial Class Form1
         Me.SincronizarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.SalirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.Button1 = New System.Windows.Forms.Button
-        Me.MenuStrip1.SuspendLayout()
-        Me.SuspendLayout()
-        '
-        'MenuStrip1
-        '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TareasToolStripMenuItem, Me.HistorialToolStripMenuItem, Me.ConfiguracionToolStripMenuItem, Me.ImportarExcelToolStripMenuItem, Me.SincronizarToolStripMenuItem, Me.SalirToolStripMenuItem})
-        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
-        Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(478, 24)
-        Me.MenuStrip1.TabIndex = 0
-        Me.MenuStrip1.Text = "MenuStrip1"
-        '
-        'TareasToolStripMenuItem
-        '
-        Me.TareasToolStripMenuItem.Name = "TareasToolStripMenuItem"
-        Me.TareasToolStripMenuItem.Size = New System.Drawing.Size(51, 20)
-        Me.TareasToolStripMenuItem.Text = "Tareas"
-        '
-        'HistorialToolStripMenuItem
-        '
-        Me.HistorialToolStripMenuItem.Name = "HistorialToolStripMenuItem"
-        Me.HistorialToolStripMenuItem.Size = New System.Drawing.Size(63, 20)
-        Me.HistorialToolStripMenuItem.Text = "Historial"
-        '
-        'ConfiguracionToolStripMenuItem
-        '
-        Me.ConfiguracionToolStripMenuItem.Name = "ConfiguracionToolStripMenuItem"
-        Me.ConfiguracionToolStripMenuItem.Size = New System.Drawing.Size(95, 20)
-        Me.ConfiguracionToolStripMenuItem.Text = "Configuracion"
-        '
-        'ImportarExcelToolStripMenuItem
-        '
-        Me.ImportarExcelToolStripMenuItem.Name = "ImportarExcelToolStripMenuItem"
-        Me.ImportarExcelToolStripMenuItem.Size = New System.Drawing.Size(95, 20)
-        Me.ImportarExcelToolStripMenuItem.Text = "Importar Excel"
-        '
-        'SincronizarToolStripMenuItem
-        '
-        Me.SincronizarToolStripMenuItem.Name = "SincronizarToolStripMenuItem"
-        Me.SincronizarToolStripMenuItem.Size = New System.Drawing.Size(77, 20)
-        Me.SincronizarToolStripMenuItem.Text = "Sincronizar"
-        '
-        'SalirToolStripMenuItem
-        '
-        Me.SalirToolStripMenuItem.Name = "SalirToolStripMenuItem"
-        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(41, 20)
-        Me.SalirToolStripMenuItem.Text = "Salir"
-        '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(28, 92)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 1
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -111,5 +54,5 @@ Partial Class Form1
     Friend WithEvents ImportarExcelToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents SincronizarToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents Button1 As System.Windows.Forms.Button
-
+    Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
 End Class
