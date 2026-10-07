@@ -23,4 +23,10 @@
     Private Sub SincronizarToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles SincronizarToolStripMenuItem.Click
         frmSincronizador.Show()
     End Sub
+
+    Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        'esto es una prueba 06-10-2026
+        'Este cambio es par el comit 2
+        'CAMBIO DE 13:20
+    End Sub
 End Class
