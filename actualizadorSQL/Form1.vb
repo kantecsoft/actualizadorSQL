@@ -29,4 +29,8 @@
         'Este cambio es par el comit 2
         'CAMBIO DE 13:20
     End Sub
+
+    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+        'mensaje nuevo de la master
+    End Sub
 End Class
